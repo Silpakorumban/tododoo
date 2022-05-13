@@ -87,11 +87,11 @@ document.getElementById('demo3').onclick = function() {
     })
     promise
         .then(function(s) {
-            alert(s);
+
             setTimeout(function() {
+                alert(s);
 
-
-            }), 1000;
+            }), 3000;
         })
         .catch(function(e) {
             console.log(e);
