@@ -91,7 +91,7 @@ document.getElementById('demo3').onclick = function() {
             setTimeout(function() {
                 alert(s);
 
-            }), 3000;
+            }), 4000;
         })
         .catch(function(e) {
             console.log(e);
