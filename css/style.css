@@ -1,0 +1,98 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-size: calc();
+}
+
+header {
+    background-color: black;
+    height: 5em;
+}
+
+.headrelements {
+    float: right;
+    margin-top: 33px;
+    margin-right: 88px;
+}
+
+.headrelements a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    text-align: center;
+    color: white;
+    border: .3px solid white;
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.headrelements a:hover {
+    background-color: rgb(228, 138, 22);
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+#blank {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10%;
+    margin-left: 6%;
+    padding-bottom: 8px;
+}
+
+.form1 {
+    border: 2px solid red;
+    background-color: ivory;
+    float: right;
+    height: 17em;
+    margin-right: 44px;
+    margin-top: 22px;
+}
+
+#formhead {
+    padding-top: 32px;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.credentials {
+    padding: 15px;
+}
+
+#Login {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 30%;
+    padding-right: 35%;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 22px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.signup {
+    margin-left: 15px;
+}
+
+.signup h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.signup a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: blue;
+    font-weight: bold;
+}
